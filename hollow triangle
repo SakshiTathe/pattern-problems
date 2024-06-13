@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Basic { 
+    public static void main(String[] args) {   
+        System.out.print("Enter rows:"); 
+        Scanner scanner = new Scanner(System.in);
+        int row = scanner.nextInt();
+        scanner.close();
+        
+        for (int i = 0; i <= row; i++) {
+            for (int j = 0; j <= row + i; j++) {
+                if (j == row - i || j == row + i || i == row) {
+                    System.out.print('*');
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+     *
+    * *
+   *   *
+  *     *
+ *       *
+***********
