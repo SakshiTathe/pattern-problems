@@ -7,8 +7,8 @@ public class basic {
         Scanner scanner = new Scanner(System.in);
         int row = scanner.nextInt();
         scanner.close();  
-        for (int i = 0; i <= row; i++) {
-            for (int j = 0; j < i; j++) {
+        for (int i = 0; i <row; i++) {
+            for (int j = 0; j <=i; j++) {
                 System.out.print("*");
               }
             System.out.println("");
