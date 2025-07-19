@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Pattern { 
     public static void main(String[] args) 
     {   
-        System.out.print("Enter rows:"); 
+        System.out.print("Enter ro 
         Scanner scanner = new Scanner(System.in);
         int row = scanner.nextInt();
         scanner.close();  
@@ -23,3 +23,8 @@ Enter rows:5
 123
 12
 1
+
+
+
+
+ 
